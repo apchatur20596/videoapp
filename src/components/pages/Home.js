@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../App.css';
 import Cards from '../js/Cards';
+import Footer from '../js/Footer';
 import HeroSection from '../js/HeroSection';
 
 function Home() {
@@ -8,6 +9,7 @@ function Home() {
     <>
       <HeroSection />
       <Cards />
+      <Footer />
     </>
   );
 }
